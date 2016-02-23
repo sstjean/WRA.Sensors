@@ -12,11 +12,9 @@ and published to the IoT Hub.
 ##WRA.Sensors.Arduino
 This is the Arduino sketch.  It is a modified version of the StandardFirmata sketch that includes
 a modified `sysecCallback()` function which reads a bunch of sensors and returns a string of readings
-back to the caller (Raspberry Pi). 
-  
- ---  
-   
- ##Support Apps
+back to the caller (Raspberry Pi).   
+
+##Support Apps
  The following console apps were created from code listed on the [Get started with Azure IoT Hub] page.
  
  [Get started with Azure IoT Hub]: https://azure.microsoft.com/en-us/documentation/articles/iot-hub-csharp-csharp-getstarted/
